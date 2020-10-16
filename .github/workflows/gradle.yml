@@ -26,5 +26,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: mr-cell/github-actions-demo
+          repository: mr-cell/github-actions-demo/github-actions-demo
           tag_with_ref: true
